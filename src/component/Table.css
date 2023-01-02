@@ -1,0 +1,252 @@
+/* Modal  */
+.modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    right: 0px;
+    border-radius: 0;
+}
+
+.modal-content {
+    height: 100%;
+    border-radius: 0;
+    font-size: 2vw;
+    font-size: 1.5vh;
+}
+.modal-body{
+        font-size: 2vh;
+        font-size: 1.5vw;
+}
+@media screen and (max-width: 600px) {
+    .modal-body {
+        font-size: 4vh;
+        font-size: 2.5vw;
+    }
+}
+@media screen and (min-width: 600px) {
+    .modal-body {
+        font-size: 5vh;
+        font-size: 2vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .modal-body {
+        font-size: 2vh;
+        font-size: 2vw;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .modal-body {
+        font-size: 1.2vh;
+        font-size: 1.2vw;
+    }
+    .title{
+        font-size: 2.4vh;
+    }
+}
+
+.modal-body div {
+    padding-top: 13px;
+    border-radius: 0;
+    padding-left: 0.2px;
+    padding-right: 0px;
+}
+.title{
+    
+    color: black;
+    background-color: #0000ff1a;
+    height: 9%;
+    border-radius: 0;
+}
+.dropdown-toggle {
+    display: none;
+}
+
+.general{
+    @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+
+}
+.random{
+    
+        font-weight: bold;
+        padding: 1rem;
+        margin-bottom: 1rem;
+
+}
+.insideRandam{
+            height: 100%;
+            width: 100%;
+            padding: 1rem;
+                @media screen and (max-width: 600px) {
+                        .column {
+                            width: 100%;
+                        }
+                    }
+                
+
+}
+
+.heading{
+    color: rgb(18, 18, 99);
+    padding-bottom: 0%;
+    padding-left: 3%;
+    
+}
+
+.react-bootstrap-table th.sortable {
+            cursor: pointer;
+            background-color: #0b0b49;
+            color: white;
+            border: none;
+            font-size: 2vh;
+            font-size: 1.4vw;
+}
+
+.table>tbody {
+    vertical-align: inherit;
+    color: black;
+    background-color: #0000ff1a;
+    font-size: 2vh;
+    font-size: 1.4vw;
+
+}
+
+.form-control{
+        width: 20rem;
+        @media only screen and (min-width: 600px) {
+                .form-control{
+                    display: inline-block;
+                    width: 3rem;
+                    float: left;
+                }
+            }
+            @media only screen and (max-width: 200px) {
+                .form-control {
+                    display: inline-block;
+                    width: 50%;
+                    float: left;
+                }
+            }
+}
+
+/* Export */
+.export {
+    position: absolute;
+    bottom: 5px;
+
+    right: 0px;
+
+}
+
+/* ===========================
+   ====== Search Box ====== 
+   =========================== */
+
+#search-bar-0.form-control {
+    background-color: #0000ff1a;
+    font: left;
+    width: 35vh;
+    border-radius: 1;
+    border: solid ;
+   
+    
+    border: rgb(15, 15, 15);
+  
+    
+}
+#search-bar-0-label{
+    display: none;
+}
+.search input[type="text"] {
+    border: 2px solid #1e1616;
+    border: 0px;
+    padding: 0.9vh 7vw;
+    align-content: center;
+    font-size: 1.5vh;
+    font-size: 1.5vw;
+}
+
+.search input[type="text"]:focus {
+    outline: 0;
+    width: 10vh;
+    width: 10vw;
+}
+.search{
+    float: left;
+    padding-left: 1%;
+}
+
+@media only screen and (min-width : 150px) and (max-width : 600px) {
+
+
+    #search-bar-0.form-control {
+        float: left;
+        width: 50vw;
+        margin: 0 auto;
+        padding-bottom: 1%;
+    }
+
+}
+
+@media only screen and (min-width : 150px) and (min-width : 600px) {
+
+
+    #search-bar-0.form-control {
+        float: left;
+        width: 40vw;
+        height: 5vh;
+        margin: 0 auto;
+        padding-bottom: 1%;
+    }
+
+}
+
+/* Filter */
+.filter{
+    font-size: 1vh;
+    font-size: 1vw;
+    width: 13vw;
+    height: 1.5vh;
+
+}
+
+
+@media only screen and (max-width : 600px) and(min-width: 600px) {
+
+
+    .filter{
+            font-size: 1vh;
+            font-size: 1vw;
+            width: 13vw;
+            height: 4vh;
+    }
+
+}
+
+@media only screen and (min-width : 992px) and (min-width: 992px) and (min-width: 768px)  {
+
+
+    .filter {
+        font-size: 0.5vh;
+            font-size: 1.5vw;
+            width: 14vw;
+            height: 4vh;
+    }
+
+}
+
+
+
+
+
+
